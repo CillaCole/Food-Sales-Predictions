@@ -1,1 +1,30 @@
-# Food-Sales-Predictions
+# Food Sales Predictions
+- Author: Priscilla E. Cole
+- # Business Problem
+- -The purpose of this study is to understand the properties of products and the outlets for this company and what part they play with the increasing of sales.
+- # Data Source and Information
+- - This data is comprised of 12 columns (11 features and 1 target), and 8523 rows representing the characteristics of the BigMart stores.
+- ## Data Dictionary
+- -Item_Identifier: Unique Product ID
+- -Item_Weight: Weight of Product
+- -Item_Fat_Content: Whether the product is low fat or of regular fat content
+- -Item_Visibility: The percentage of total display area of all products in store allocated to the particular product
+- -Item_Type: The category to which the product belongs
+- -Item_MRP: Maximum Retail Price of the product
+- -Outlet_Identifier: Unique store ID
+- -Outlet_Establishment_Year: The year in which store was established
+- -Outlet_Size: The size of the store in terms of ground area covered
+- -Outlet_Location_Type: The type of area in which the store is located
+- -Outlet_Type: Whether the outlet is a grocery store or some sort of supermarket
+- -Item_Outlet_Sales: Sales of the product in the particular store. This is the target variable that we are predicting.
+- # Methods
+- The data was loaded onto our notebook and thoroughly examined. After examining and cleaning the data, various visuals were created to further explain the characteristics of the dataset. Following that, we then defined our features and our target variable, as mentioned above in the dictionary section. After working through that, creating, instantiating, and fitting our pipelines, we then created our models. After running our two models, we ran regression metrics on each and compared the metrics on each one to determine which model would best convey the solution to our business problem. 
+- # Explanatory Data Analysis
+- ![image](https://user-images.githubusercontent.com/110208019/192661498-8cdc9f62-1632-4cfd-a432-f1fa1e1dd1b7.png)
+- - This bar plot displays each of the BigMart supermarket types and how many of them there are. With this, we can see that supermarket type 1 makes up the vast majority of the types of grocery stores representing BigMart.
+- ![image](https://user-images.githubusercontent.com/110208019/192661341-dda0a18b-60cd-472c-8f7e-72ca0f898124.png)
+- - The heat map displays the correlation of each of the features as it relates to our target vector.
+- # Final Recommendations
+- -Upon reviewing the data and the metrics, it was determined that the Decision Tree's metrics better coveyed our solution. Our final recommendation is to put more into implementing more of the supermarket type 1 and continue product sales.
+- # Further Contact Information
+- - For any other questions or concerns, please email me at priscillaecole@yahoo.com.
